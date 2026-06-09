@@ -1,0 +1,74 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    background-color: white;
+    font-size: 2rem;
+}
+
+table {
+    margin: 60px auto;
+    background-color: whitesmoke;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 5px 5px gainsboro;
+    width: 400px;
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+}
+
+td {
+    border-radius: 0.5rem;
+}
+
+p {
+    min-height: 1.5em;
+    box-shadow: 0 0 5px 5px gainsboro;
+    margin: 0 0 10px 0;
+    border-radius: 0.5rem;
+    padding-left: 13px;
+    background-color: white;
+    text-align: left;
+
+}
+
+p:empty {
+    min-height: 1.5em;
+}
+
+button {
+    background-color: white;
+    border: none;
+    border-radius: 0.5rem;
+    width: 100%;
+    font-size: 1em;
+    line-height: 200%;
+    cursor: pointer;
+}
+.numeric:hover {
+    background-color: black;
+    color: white;
+}
+.operation {
+    background-color: rgb(18, 156, 255);
+    color: white;
+}
+.operation:hover {
+    color: rgb(18, 156, 255);
+    background-color: white;
+}
+.reset {
+    color: white;
+    background-color: orangered;
+}
+.reset:hover {
+    color: orangered;
+    background-color: white;
+}
+.evaluate {
+    color: white;
+    background-color: lightgreen;
+    line-height: 6.3em;
+}
+.evaluate:hover {
+    color: lightgreen;
+    background-color: white;
+}
