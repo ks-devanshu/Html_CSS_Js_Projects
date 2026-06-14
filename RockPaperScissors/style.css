@@ -1,0 +1,63 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+.content{
+    margin: 70px auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 40px;
+}
+
+h3 {
+    font-size: 25px;
+    margin: 0;
+}
+
+button {
+    font-size: 40px;
+    padding: 10px;
+    margin: 5px 5px;
+    border: solid;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+#rock {
+    background-color: red;
+}
+
+#paper {
+    background-color: rgb(52, 123, 255);
+}
+
+#scissors {
+    background-color: rgb(5, 177, 5);
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.scoreboard {
+    display: inline;
+    margin: auto 5px;
+}
+
+em {
+    font-style: normal;
+}
+
+#scoreH {
+    color: rgb(0, 115, 255);
+}
+
+#scoreC {
+    color: red;
+}
