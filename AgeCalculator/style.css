@@ -1,0 +1,55 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+div {
+    margin: 50px auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 0.5rem;
+    max-width: 600px;
+    padding: 30px;
+    box-shadow: 10px 0px 20px 20px gainsboro;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0 auto 30px;
+}
+
+#prompt {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
+    margin: 10px auto 20px;
+    display: block;
+    width: 300px;
+    padding: 10px;
+    border-radius: 0.5rem;
+    border: solid 1px gainsboro;
+    cursor: text;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+button {
+    background-color: rgb(52, 106, 244);
+    color: white;
+    font-size: 15px;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
