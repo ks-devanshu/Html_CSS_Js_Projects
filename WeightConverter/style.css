@@ -1,0 +1,50 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    background: linear-gradient(to left top, yellow, lightblue,yellow);
+    min-height: 100vh;
+    display: flex;
+    color: darkcyan;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 0.5rem;
+    padding: 20px;
+    box-shadow: 2px 2px 40px 2px gray;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+label {
+    font-weight: bold;
+    display: inline;
+    margin-right: 10px;
+}
+
+input {
+    width: 70%;
+    border-radius: 0.3rem;
+    border: none;
+    padding: 10px 10px;
+    background: rgb(240,240,240, 0.7);
+    appearance: textfield;
+    box-shadow: 2px 2px 2px 2px rgb(255,255,255,0.6);
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+p {
+    margin-top: 30px;
+}
+
+#error {
+    color: red;
+}
