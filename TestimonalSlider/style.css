@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div {
+    margin: 200px auto;
+    text-align: center;
+    background-color: rgb(110, 79, 233);
+    max-width: 600px;
+    padding: 60px;
+    border-radius: 1rem;
+    color: white;
+}
+
+img {
+    margin-top: -25%;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+p {
+    text-align: left;
+}
+
+#review {
+    font-weight: bold;
+}
