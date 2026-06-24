@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <h2 class="heading-app">Weather App</h2>
+        <div class="input-form">
+            <input type="text" id="city-input" placeholder="Enter city...">
+            <button type="button" id="search-btn">Get Weather</button>
+        </div>
+        <div class="output" id="output-div">
+            <div class="image-div"><img id="weather-img" src="https://openweathermap.org/img/wn/01d.png" alt="weather-image"></div>
+            <h1 class="temp-num" ><span id="temp-cel">5</span>°C</h1>
+            <p class="temp-desc" id="description">overcast clouds</p>
+            <div class="extras">
+                <div class="generic-extras">
+                    <p>Feels like: <span id="feels-like">4</span></p>
+                </div>
+                <div class="generic-extras">
+                    <p>Humidity: <span id="humidity">74</span>%</p>
+                </div>
+                <div class="generic-extras">
+                    <p>Wind speed: <span id="wind-speed">2.06</span> m/s</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="error-content" id="error-div">
+            <p>An error happened, please try again later</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
